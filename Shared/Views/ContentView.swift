@@ -14,6 +14,10 @@ struct ContentView: View {
                 .tabItem {
                     Label("Crops", systemImage: "cart")
                 }
+            MarketsView()
+                .tabItem {
+                    Label("Markets", systemImage: "globe")
+                }
             MapView()
                 .tabItem {
                     Label("Map", systemImage: "map")
