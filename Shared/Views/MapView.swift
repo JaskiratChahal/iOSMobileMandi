@@ -9,18 +9,20 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    @ObservedObject var viewModel = ViewModel()
-    @State private var region: MKCoordinateRegion =
-    MKCoordinateRegion(center: CLLocationCoordinate2D(latitude: 25, longitude: 82), span: MKCoordinateSpan(latitudeDelta: 28, longitudeDelta: 28))
+    @ObservedObject private var dataViewModel = DataViewModel()
+    @StateObject private var mapViewModel = MapViewModel()
     
     var body: some View {
-        Map(coordinateRegion: $region,
+        Map(coordinateRegion: $mapViewModel.region,
             showsUserLocation: true,
-            annotationItems: viewModel.markets,
+            annotationItems: dataViewModel.markets,
             annotationContent: { market in
             MapPin(coordinate: market.coordinate, tint: .red)
         })
-//            .edgesIgnoringSafeArea(.all)
+        .edgesIgnoringSafeArea(.top)
+        .onAppear() {
+            mapViewModel.checkIfLocationServicesIsEnabled()
+        }
 
     }
 }
@@ -30,3 +32,5 @@ struct MapView_Previews: PreviewProvider {
         MapView()
     }
 }
+
+

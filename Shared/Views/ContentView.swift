@@ -11,12 +11,10 @@ struct ContentView: View {
     var body: some View {
         TabView {
             CropsView()
-                .padding()
                 .tabItem {
                     Label("Crops", systemImage: "cart")
                 }
             MapView()
-                .padding()
                 .tabItem {
                     Label("Map", systemImage: "map")
                 }

@@ -13,7 +13,7 @@ private let ref = Database.database().reference()
 private let dbPath = "latest/markets/ADILABAD"
 private let coordPath = "locations"
 
-class ViewModel: ObservableObject {
+class DataViewModel: ObservableObject {
     @Published var prices = [Price]()
     @Published var markets = [Market]()
     

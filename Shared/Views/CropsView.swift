@@ -8,7 +8,7 @@
 import SwiftUI
 
 struct CropsView: View {
-    @ObservedObject var viewModel = ViewModel()
+    @ObservedObject var viewModel = DataViewModel()
     
     var body: some View {
         NavigationView {

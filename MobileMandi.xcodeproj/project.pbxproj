@@ -20,8 +20,8 @@
 		7E57331D281EF49D0080485F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E57331C281EF49D0080485F /* FirebaseAnalytics */; };
 		7E57331F281EF49D0080485F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7E57331E281EF49D0080485F /* FirebaseDatabase */; };
 		7E573321281EF49D0080485F /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 7E573320281EF49D0080485F /* FirebaseDatabaseSwift-Beta */; };
-		7E573329281EF63D0080485F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* ViewModel.swift */; };
-		7E57332A281EF63D0080485F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* ViewModel.swift */; };
+		7E573329281EF63D0080485F /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* DataViewModel.swift */; };
+		7E57332A281EF63D0080485F /* DataViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* DataViewModel.swift */; };
 		7E57332F281F12D50080485F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E57332E281F12D50080485F /* GoogleService-Info.plist */; };
 		7E573330281F12D50080485F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E57332E281F12D50080485F /* GoogleService-Info.plist */; };
 		7E573332281F34A10080485F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573331281F34A10080485F /* ContentView.swift */; };
@@ -32,6 +32,8 @@
 		7E98D981281FCD4900BAAFC5 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D97F281FCD4900BAAFC5 /* Price.swift */; };
 		7E98D983281FCD6D00BAAFC5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D982281FCD6D00BAAFC5 /* Market.swift */; };
 		7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D982281FCD6D00BAAFC5 /* Market.swift */; };
+		7E98D98B281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */; };
+		7E98D98C281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,13 +66,14 @@
 		7E5732FB281EF39A0080485F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5732FF281EF39A0080485F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7E573301281EF39A0080485F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
-		7E573328281EF63D0080485F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7E573328281EF63D0080485F /* DataViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataViewModel.swift; sourceTree = "<group>"; };
 		7E57332E281F12D50080485F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
 		7E573331281F34A10080485F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		7E573334281F351B0080485F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		7E98D97F281FCD4900BAAFC5 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
 		7E98D982281FCD6D00BAAFC5 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		7E98D989281FD3A700BAAFC5 /* MobileMandi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MobileMandi--iOS--Info.plist"; sourceTree = "<group>"; };
+		7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -182,7 +185,8 @@
 		7E98D986281FCEA100BAAFC5 /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
-				7E573328281EF63D0080485F /* ViewModel.swift */,
+				7E573328281EF63D0080485F /* DataViewModel.swift */,
+				7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -366,12 +370,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E573305281EF39A0080485F /* CropsView.swift in Sources */,
-				7E573329281EF63D0080485F /* ViewModel.swift in Sources */,
+				7E573329281EF63D0080485F /* DataViewModel.swift in Sources */,
 				7E98D983281FCD6D00BAAFC5 /* Market.swift in Sources */,
 				7E573335281F351B0080485F /* MapView.swift in Sources */,
 				7E573332281F34A10080485F /* ContentView.swift in Sources */,
 				7E573303281EF39A0080485F /* MobileMandiApp.swift in Sources */,
 				7E98D980281FCD4900BAAFC5 /* Price.swift in Sources */,
+				7E98D98B281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,12 +385,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E573306281EF39A0080485F /* CropsView.swift in Sources */,
-				7E57332A281EF63D0080485F /* ViewModel.swift in Sources */,
+				7E57332A281EF63D0080485F /* DataViewModel.swift in Sources */,
 				7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */,
 				7E573336281F351B0080485F /* MapView.swift in Sources */,
 				7E573333281F34A10080485F /* ContentView.swift in Sources */,
 				7E573304281EF39A0080485F /* MobileMandiApp.swift in Sources */,
 				7E98D981281FCD4900BAAFC5 /* Price.swift in Sources */,
+				7E98D98C281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
