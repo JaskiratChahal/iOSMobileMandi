@@ -25,6 +25,7 @@ struct MarketsView: View {
         }
     }
 }
+
 struct MarketsView_Previews: PreviewProvider {
     static var previews: some View {
         MarketsView()
