@@ -1,6 +1,6 @@
 //
-//  ContentView.swift
-//  Shared
+//  CropsView.swift
+//  MobileMandi
 //
 //  Created by Jaskirat Chahal on 01/05/2022.
 //
