@@ -8,11 +8,11 @@
 import SwiftUI
 
 struct CropsView: View {
-    @ObservedObject var viewModel = DataViewModel()
+    @ObservedObject var dataViewModel = DataViewModel()
     
     var body: some View {
         NavigationView {
-            List(viewModel.prices) { price in
+            List(dataViewModel.prices) { price in
                 VStack {
                     HStack {
                         Text(price.crop)

@@ -34,6 +34,10 @@
 		7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D982281FCD6D00BAAFC5 /* Market.swift */; };
 		7E98D98B281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */; };
 		7E98D98C281FEFCB00BAAFC5 /* MapViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */; };
+		7E98D98E28200BA100BAAFC5 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98D28200BA100BAAFC5 /* MarketsView.swift */; };
+		7E98D98F28200BA100BAAFC5 /* MarketsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D98D28200BA100BAAFC5 /* MarketsView.swift */; };
+		7E98D99128200CFF00BAAFC5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D99028200CFF00BAAFC5 /* Utils.swift */; };
+		7E98D99228200CFF00BAAFC5 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D99028200CFF00BAAFC5 /* Utils.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -74,6 +78,8 @@
 		7E98D982281FCD6D00BAAFC5 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
 		7E98D989281FD3A700BAAFC5 /* MobileMandi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MobileMandi--iOS--Info.plist"; sourceTree = "<group>"; };
 		7E98D98A281FEFCB00BAAFC5 /* MapViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewModel.swift; sourceTree = "<group>"; };
+		7E98D98D28200BA100BAAFC5 /* MarketsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MarketsView.swift; sourceTree = "<group>"; };
+		7E98D99028200CFF00BAAFC5 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -132,6 +138,7 @@
 				7E98D987281FCEAC00BAAFC5 /* Views */,
 				7E98D986281FCEA100BAAFC5 /* ViewModels */,
 				7E98D985281FCE9700BAAFC5 /* Models */,
+				7E98D99028200CFF00BAAFC5 /* Utils.swift */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -196,6 +203,7 @@
 			children = (
 				7E573331281F34A10080485F /* ContentView.swift */,
 				7E5732DC281EF3990080485F /* CropsView.swift */,
+				7E98D98D28200BA100BAAFC5 /* MarketsView.swift */,
 				7E573334281F351B0080485F /* MapView.swift */,
 			);
 			path = Views;
@@ -369,10 +377,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E98D98E28200BA100BAAFC5 /* MarketsView.swift in Sources */,
 				7E573305281EF39A0080485F /* CropsView.swift in Sources */,
 				7E573329281EF63D0080485F /* DataViewModel.swift in Sources */,
 				7E98D983281FCD6D00BAAFC5 /* Market.swift in Sources */,
 				7E573335281F351B0080485F /* MapView.swift in Sources */,
+				7E98D99128200CFF00BAAFC5 /* Utils.swift in Sources */,
 				7E573332281F34A10080485F /* ContentView.swift in Sources */,
 				7E573303281EF39A0080485F /* MobileMandiApp.swift in Sources */,
 				7E98D980281FCD4900BAAFC5 /* Price.swift in Sources */,
@@ -384,10 +394,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E98D98F28200BA100BAAFC5 /* MarketsView.swift in Sources */,
 				7E573306281EF39A0080485F /* CropsView.swift in Sources */,
 				7E57332A281EF63D0080485F /* DataViewModel.swift in Sources */,
 				7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */,
 				7E573336281F351B0080485F /* MapView.swift in Sources */,
+				7E98D99228200CFF00BAAFC5 /* Utils.swift in Sources */,
 				7E573333281F34A10080485F /* ContentView.swift in Sources */,
 				7E573304281EF39A0080485F /* MobileMandiApp.swift in Sources */,
 				7E98D981281FCD4900BAAFC5 /* Price.swift in Sources */,
