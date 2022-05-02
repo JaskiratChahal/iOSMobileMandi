@@ -13,10 +13,25 @@
 		7E573302281EF39A0080485F /* Tests_macOSLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573301281EF39A0080485F /* Tests_macOSLaunchTests.swift */; };
 		7E573303281EF39A0080485F /* MobileMandiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DB281EF3990080485F /* MobileMandiApp.swift */; };
 		7E573304281EF39A0080485F /* MobileMandiApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DB281EF3990080485F /* MobileMandiApp.swift */; };
-		7E573305281EF39A0080485F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DC281EF3990080485F /* ContentView.swift */; };
-		7E573306281EF39A0080485F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DC281EF3990080485F /* ContentView.swift */; };
+		7E573305281EF39A0080485F /* CropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DC281EF3990080485F /* CropsView.swift */; };
+		7E573306281EF39A0080485F /* CropsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E5732DC281EF3990080485F /* CropsView.swift */; };
 		7E573307281EF39A0080485F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5732DD281EF39A0080485F /* Assets.xcassets */; };
 		7E573308281EF39A0080485F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7E5732DD281EF39A0080485F /* Assets.xcassets */; };
+		7E57331D281EF49D0080485F /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 7E57331C281EF49D0080485F /* FirebaseAnalytics */; };
+		7E57331F281EF49D0080485F /* FirebaseDatabase in Frameworks */ = {isa = PBXBuildFile; productRef = 7E57331E281EF49D0080485F /* FirebaseDatabase */; };
+		7E573321281EF49D0080485F /* FirebaseDatabaseSwift-Beta in Frameworks */ = {isa = PBXBuildFile; productRef = 7E573320281EF49D0080485F /* FirebaseDatabaseSwift-Beta */; };
+		7E573329281EF63D0080485F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* ViewModel.swift */; };
+		7E57332A281EF63D0080485F /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573328281EF63D0080485F /* ViewModel.swift */; };
+		7E57332F281F12D50080485F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E57332E281F12D50080485F /* GoogleService-Info.plist */; };
+		7E573330281F12D50080485F /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 7E57332E281F12D50080485F /* GoogleService-Info.plist */; };
+		7E573332281F34A10080485F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573331281F34A10080485F /* ContentView.swift */; };
+		7E573333281F34A10080485F /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573331281F34A10080485F /* ContentView.swift */; };
+		7E573335281F351B0080485F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573334281F351B0080485F /* MapView.swift */; };
+		7E573336281F351B0080485F /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E573334281F351B0080485F /* MapView.swift */; };
+		7E98D980281FCD4900BAAFC5 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D97F281FCD4900BAAFC5 /* Price.swift */; };
+		7E98D981281FCD4900BAAFC5 /* Price.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D97F281FCD4900BAAFC5 /* Price.swift */; };
+		7E98D983281FCD6D00BAAFC5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D982281FCD6D00BAAFC5 /* Market.swift */; };
+		7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E98D982281FCD6D00BAAFC5 /* Market.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,7 +53,7 @@
 
 /* Begin PBXFileReference section */
 		7E5732DB281EF3990080485F /* MobileMandiApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MobileMandiApp.swift; sourceTree = "<group>"; };
-		7E5732DC281EF3990080485F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E5732DC281EF3990080485F /* CropsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CropsView.swift; sourceTree = "<group>"; };
 		7E5732DD281EF39A0080485F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		7E5732E2281EF39A0080485F /* MobileMandi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMandi.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5732E8281EF39A0080485F /* MobileMandi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MobileMandi.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -49,6 +64,13 @@
 		7E5732FB281EF39A0080485F /* Tests macOS.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Tests macOS.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		7E5732FF281EF39A0080485F /* Tests_macOS.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOS.swift; sourceTree = "<group>"; };
 		7E573301281EF39A0080485F /* Tests_macOSLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests_macOSLaunchTests.swift; sourceTree = "<group>"; };
+		7E573328281EF63D0080485F /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		7E57332E281F12D50080485F /* GoogleService-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "GoogleService-Info.plist"; sourceTree = SOURCE_ROOT; };
+		7E573331281F34A10080485F /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		7E573334281F351B0080485F /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		7E98D97F281FCD4900BAAFC5 /* Price.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Price.swift; sourceTree = "<group>"; };
+		7E98D982281FCD6D00BAAFC5 /* Market.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Market.swift; sourceTree = "<group>"; };
+		7E98D989281FD3A700BAAFC5 /* MobileMandi--iOS--Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = "MobileMandi--iOS--Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +78,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7E573321281EF49D0080485F /* FirebaseDatabaseSwift-Beta in Frameworks */,
+				7E57331F281EF49D0080485F /* FirebaseDatabase in Frameworks */,
+				7E57331D281EF49D0080485F /* FirebaseAnalytics in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -86,6 +111,7 @@
 		7E5732D5281EF3980080485F = {
 			isa = PBXGroup;
 			children = (
+				7E98D989281FD3A700BAAFC5 /* MobileMandi--iOS--Info.plist */,
 				7E5732DA281EF3990080485F /* Shared */,
 				7E5732E9281EF39A0080485F /* macOS */,
 				7E5732F2281EF39A0080485F /* Tests iOS */,
@@ -97,9 +123,12 @@
 		7E5732DA281EF3990080485F /* Shared */ = {
 			isa = PBXGroup;
 			children = (
-				7E5732DB281EF3990080485F /* MobileMandiApp.swift */,
-				7E5732DC281EF3990080485F /* ContentView.swift */,
 				7E5732DD281EF39A0080485F /* Assets.xcassets */,
+				7E57332E281F12D50080485F /* GoogleService-Info.plist */,
+				7E5732DB281EF3990080485F /* MobileMandiApp.swift */,
+				7E98D987281FCEAC00BAAFC5 /* Views */,
+				7E98D986281FCEA100BAAFC5 /* ViewModels */,
+				7E98D985281FCE9700BAAFC5 /* Models */,
 			);
 			path = Shared;
 			sourceTree = "<group>";
@@ -141,6 +170,33 @@
 			path = "Tests macOS";
 			sourceTree = "<group>";
 		};
+		7E98D985281FCE9700BAAFC5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				7E98D97F281FCD4900BAAFC5 /* Price.swift */,
+				7E98D982281FCD6D00BAAFC5 /* Market.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		7E98D986281FCEA100BAAFC5 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				7E573328281EF63D0080485F /* ViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		7E98D987281FCEAC00BAAFC5 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				7E573331281F34A10080485F /* ContentView.swift */,
+				7E5732DC281EF3990080485F /* CropsView.swift */,
+				7E573334281F351B0080485F /* MapView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -157,6 +213,11 @@
 			dependencies = (
 			);
 			name = "MobileMandi (iOS)";
+			packageProductDependencies = (
+				7E57331C281EF49D0080485F /* FirebaseAnalytics */,
+				7E57331E281EF49D0080485F /* FirebaseDatabase */,
+				7E573320281EF49D0080485F /* FirebaseDatabaseSwift-Beta */,
+			);
 			productName = "MobileMandi (iOS)";
 			productReference = 7E5732E2281EF39A0080485F /* MobileMandi.app */;
 			productType = "com.apple.product-type.application";
@@ -249,6 +310,9 @@
 				Base,
 			);
 			mainGroup = 7E5732D5281EF3980080485F;
+			packageReferences = (
+				7E57331B281EF49D0080485F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
+			);
 			productRefGroup = 7E5732E3281EF39A0080485F /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -267,6 +331,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E573307281EF39A0080485F /* Assets.xcassets in Resources */,
+				7E57332F281F12D50080485F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -275,6 +340,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7E573308281EF39A0080485F /* Assets.xcassets in Resources */,
+				7E573330281F12D50080485F /* GoogleService-Info.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -299,8 +365,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E573305281EF39A0080485F /* ContentView.swift in Sources */,
+				7E573305281EF39A0080485F /* CropsView.swift in Sources */,
+				7E573329281EF63D0080485F /* ViewModel.swift in Sources */,
+				7E98D983281FCD6D00BAAFC5 /* Market.swift in Sources */,
+				7E573335281F351B0080485F /* MapView.swift in Sources */,
+				7E573332281F34A10080485F /* ContentView.swift in Sources */,
 				7E573303281EF39A0080485F /* MobileMandiApp.swift in Sources */,
+				7E98D980281FCD4900BAAFC5 /* Price.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -308,8 +379,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				7E573306281EF39A0080485F /* ContentView.swift in Sources */,
+				7E573306281EF39A0080485F /* CropsView.swift in Sources */,
+				7E57332A281EF63D0080485F /* ViewModel.swift in Sources */,
+				7E98D984281FCD6D00BAAFC5 /* Market.swift in Sources */,
+				7E573336281F351B0080485F /* MapView.swift in Sources */,
+				7E573333281F34A10080485F /* ContentView.swift in Sources */,
 				7E573304281EF39A0080485F /* MobileMandiApp.swift in Sources */,
+				7E98D981281FCD4900BAAFC5 /* Price.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -466,6 +542,8 @@
 				DEVELOPMENT_TEAM = TRYGT6HW5A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileMandi--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -496,6 +574,8 @@
 				DEVELOPMENT_TEAM = TRYGT6HW5A;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileMandi--iOS--Info.plist";
+				INFOPLIST_KEY_NSLocationWhenInUseUsageDescription = "";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -530,6 +610,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileMandi--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -558,6 +639,7 @@
 				ENABLE_HARDENED_RUNTIME = YES;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "MobileMandi--macOS--Info.plist";
 				INFOPLIST_KEY_NSHumanReadableCopyright = "";
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -701,6 +783,35 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		7E57331B281EF49D0080485F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		7E57331C281EF49D0080485F /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E57331B281EF49D0080485F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		7E57331E281EF49D0080485F /* FirebaseDatabase */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E57331B281EF49D0080485F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseDatabase;
+		};
+		7E573320281EF49D0080485F /* FirebaseDatabaseSwift-Beta */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 7E57331B281EF49D0080485F /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = "FirebaseDatabaseSwift-Beta";
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = 7E5732D6281EF3980080485F /* Project object */;
 }

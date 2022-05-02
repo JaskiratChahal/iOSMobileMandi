@@ -6,9 +6,15 @@
 //
 
 import SwiftUI
+import Firebase
 
 @main
 struct MobileMandiApp: App {
+    init() {
+        FirebaseApp.configure()
+        Database.database().isPersistenceEnabled = true
+    }
+    
     var body: some Scene {
         WindowGroup {
             ContentView()
