@@ -21,7 +21,7 @@ struct CropsView: View {
                     }
                 }
             }
-            .navigationTitle("Crops")
+            .navigationTitle(dataViewModel.queriedMarket.toTitleCase())
         }
     }
 }
