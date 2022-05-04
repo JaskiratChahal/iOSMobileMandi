@@ -13,15 +13,26 @@ struct MarketsView: View {
     var body: some View {
         NavigationView {
             List(dataViewModel.markets) { market in
-                VStack {
-                    HStack {
-                        Text(market.name.toTitleCase())
-                        Spacer()
-                        Text(String(market.latitude) + " " + String(market.longitude))
-                    }
-                }
+                MarketItemView(market: market)
             }
             .navigationTitle("Markets")
+        }
+    }
+}
+
+struct MarketItemView: View {
+    var market: Market
+    
+    var body: some View {
+        VStack {
+            HStack {
+                NavigationLink(destination: CropItemView(dataViewModel: DataViewModel(queriedMarket: market.name)), label: {
+                
+                    Text(market.name.toTitleCase())
+                    Spacer()
+                    Text(String(market.latitude) + " " + String(market.longitude))
+                })
+            }
         }
     }
 }

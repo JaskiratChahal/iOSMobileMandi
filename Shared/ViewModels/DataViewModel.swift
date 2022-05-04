@@ -18,7 +18,8 @@ class DataViewModel: ObservableObject {
     @Published var markets = [Market]()
     @Published var queriedMarket: String = "ADILABAD"
     
-    init() {
+    init(queriedMarket: String = "ADILABAD") {
+        self.queriedMarket = queriedMarket
         fetchPrices()
         fetchCoordinates()
     }
