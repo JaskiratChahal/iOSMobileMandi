@@ -1,5 +1,5 @@
 //
-//  ViewModel.swift
+//  DataViewModel.swift
 //  MobileMandi
 //
 //  Created by Jaskirat Chahal on 01/05/2022.
@@ -18,7 +18,8 @@ class DataViewModel: ObservableObject {
     @Published var markets = [Market]()
     @Published var queriedMarket: String = "ADILABAD"
     
-    init() {
+    init(queriedMarket: String = "ADILABAD") {
+        self.queriedMarket = queriedMarket
         fetchPrices()
         fetchCoordinates()
     }
